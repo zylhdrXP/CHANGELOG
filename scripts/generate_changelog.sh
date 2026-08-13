@@ -7,19 +7,21 @@ OUT="$REPO_ROOT/CHANGELOG.md"
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
+DAY="$(date -u +%Y-%m-%d)"
+SECTION="$TMP/section.md"
+
+if [ -f "$OUT" ] && grep -q "^## $DAY$" "$OUT"; then
+  exit 0
+fi
+
 SINCE=()
 if [ -f "$OUT" ]; then
   SINCE=(--since="24 hours ago")
 fi
 
 {
-  echo "# Changelog"
-  echo
-  echo "Generated on: $(date -u +%Y-%m-%d)"
-  echo
-
   for REPO in android_device_xiaomi_garnet proprietary_vendor_xiaomi_garnet android_device_xiaomi_garnet-miuicamera proprietary_vendor_xiaomi_garnet-miuicamera; do
-    echo "## $REPO"
+    echo "### $REPO"
     echo
     git clone --quiet --no-checkout --single-branch --filter=blob:none \
       "https://github.com/Fleur-Project/$REPO" "$TMP/$REPO"
@@ -27,17 +29,32 @@ fi
     if [ -n "$LOG" ]; then
       echo "$LOG" | sed 's/^/- /'
     else
-      echo "- No commits in the last 24 hours."
+      echo "- No new commits."
     fi
     echo
   done
 
-  echo "## Kernel"
+  echo "### Kernel"
   echo
   echo "- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)"
   echo
-  echo "## Kernel Modules"
+  echo "### Kernel Modules"
   echo
   echo "- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)"
-  echo
-} > "$OUT"
+} > "$SECTION"
+
+if [ -f "$OUT" ]; then
+  {
+    head -2 "$OUT"
+    printf '## %s\n\n' "$DAY"
+    cat "$SECTION"
+    tail -n +3 "$OUT"
+  } > "$OUT.new" && mv "$OUT.new" "$OUT"
+else
+  {
+    echo "# Changelog"
+    echo
+    printf '## %s\n\n' "$DAY"
+    cat "$SECTION"
+  } > "$OUT"
+fi

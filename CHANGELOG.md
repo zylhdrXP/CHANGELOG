@@ -1,8 +1,8 @@
 # Changelog
 
-Generated on: 2026-08-13
+## 2026-08-13
 
-## android_device_xiaomi_garnet
+### android_device_xiaomi_garnet
 
 - 9d83202 garnet: overlay: Set default pin amount for home app
 - 9e4c440 garnet: overlay: Add webview pinning
@@ -726,7 +726,7 @@ Generated on: 2026-08-13
 - 2ad7fc3 garnet: Initial device tree
 - b482db1 Initial commit
 
-## proprietary_vendor_xiaomi_garnet
+### proprietary_vendor_xiaomi_garnet
 
 - ce40d89 garnet: Import Adreno GPU drivers V837.0.9
 - dba7563 Revert "garnet: vendor: adreno: Update GPU drivers to V837.0.7"
@@ -751,7 +751,7 @@ Generated on: 2026-08-13
 - b7d6f24 garnet: Update from OS2.0.206.0.VNRMIXM
 - 3e85cf2 garnet: Initial import
 
-## android_device_xiaomi_garnet-miuicamera
+### android_device_xiaomi_garnet-miuicamera
 
 - 8c3f873 garnet-miuicamera: Enable live photo support
 - 624a703 garnet-miuicamera: patches: Update camera icon v6.x
@@ -792,7 +792,7 @@ Generated on: 2026-08-13
 - a5e49c7 Add soong namespace
 - 8559d0e Initial MiuiCamera for zeus
 
-## proprietary_vendor_xiaomi_garnet-miuicamera
+### proprietary_vendor_xiaomi_garnet-miuicamera
 
 - 5f5f4e8 garnet-miuicamera: Update Camera App 6.4.000530.0
 - db9bc8a garnet-miuicamera: Update Camera App 6.4.000450.1
@@ -802,11 +802,10 @@ Generated on: 2026-08-13
 - 42e1014 garnet-miuicamera: Update from OS3.0.5.0.WNRMIXM
 - cce1077 garnet-miuicamera: Import
 
-## Kernel
+### Kernel
 
 - [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
 
-## Kernel Modules
+### Kernel Modules
 
 - [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
-
