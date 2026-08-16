@@ -1,5 +1,38 @@
 # Changelog
 
+## 2026-08-16
+
+### android_device_xiaomi_garnet
+
+- 0725c90 garnet: power: Add uclamp and L3 boost hints
+- fb46f2c garnet: power: Tune interaction and launch hints
+- 066f231 (fixup) garnet: parts: Safely resolve default minimum frequency
+- f6202f0 garnet: parts: Default force no nap and bus split to enabled
+- 71800fc garnet: parts: Add apply on boot for kernel and gpu manager
+- aa1542f garnet: parts: Clean up kernel and gpu manager utils
+- 25b4597 garnet: parts: Default kernel manager to walt governor and 691 MHz min
+- ff76442 garnet: parts: Persist GPU manager settings
+- 83dcf11 garnet: parts: Persist kernel manager settings
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-08-15
 
 ### android_device_xiaomi_garnet
