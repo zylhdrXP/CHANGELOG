@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-08-17
+
+### android_device_xiaomi_garnet
+
+- 33c7844 garnet: parts: Preserve apply on boot across kernel manager reset
+- 0936b51 garnet: parts: Fix kernel manager reset showing wrong min freq
+- e706e7d garnet: power: Add uclamp and L3 boost hints
+- a878624 garnet: power: Tune interaction and launch hints
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-08-16
 
 ### android_device_xiaomi_garnet
