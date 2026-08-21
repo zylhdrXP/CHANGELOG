@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-08-21
+
+### android_device_xiaomi_garnet
+
+- e0577e5 garnet: Disable QCOM system daemon
+- 62e703f garnet: rootdir: Restrict apps access to /proc/net/unix
+- 4ea7f0e garnet: sepolicy: Neverallow app open access to /dev/ashmem
+- 6e7e566 garnet: rootdir: Set correct permission for ntsync
+
+### proprietary_vendor_xiaomi_garnet
+
+- d8f36bc garnet: Add missing Leica video filter
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-08-20
 
 ### android_device_xiaomi_garnet
