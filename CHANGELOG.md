@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-08-25
+
+### android_device_xiaomi_garnet
+
+- 869103c garnet: Update from OS3.0.302.0.WNRMIXM
+- afb5459 garnet: Update from OS3.0.301.0.WNRMIXM
+- 3f5e16f garnet: Restore accidentally deleted filters
+
+### proprietary_vendor_xiaomi_garnet
+
+- 875b1e5 garnet: Update from OS3.0.302.0.WNRMIXM
+- 28c853e garnet: Update from OS3.0.301.0.WNRMIXM
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- 086005d garnet-miuicamera: Update from OS3.0.302.0.WNRMIXM
+- 0d2db8f garnet-miuicamera: Update icon from HyperOS 4
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-08-24
 
 ### android_device_xiaomi_garnet
