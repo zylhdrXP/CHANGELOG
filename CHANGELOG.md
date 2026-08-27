@@ -1,5 +1,51 @@
 # Changelog
 
+## 2026-08-27
+
+### android_device_xiaomi_garnet
+
+- d5fc0f3 garnet: audio: Sync with Dolby Spatial Audio
+- 0f28fa9 garnet: Move c2_manifest_vendor.xml to device tree
+- 9e9ba9c garnet: parts: Update thermal profiles
+
+### proprietary_vendor_xiaomi_garnet
+
+- 6fddf67 Reapply "garnet: Move c2_manifest_vendor.xml to device tree"
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- 3cfe6ca dolby: Simplify translation contributor definitions
+- c65c628 dolby: Add stacked animated avatars with multi-contributor support
+- 4e12935 dolby: Fetch contributor profile pictures from GitHub
+- 93e0bb3 dolby: Use 2-column grid for translation contributors
+- 39fef54 dolby: Add callout to contribute translations in Credits dialog
+- e7534af dolby: Add translation contributors to Credits dialog
+- 106ccba dolby: sepolicy: Rewrite dolby rules
+- 5f21f8b dolby: sepolicy: Initial rules for DVS
+- dea8d04 dolby: Add Dolby vision Service support
+- 7216b55 dolby: Switch to Newer Standalone Dolby Vision Stack taken from A16
+- 35a5e31 dolby: Patch libdolbyvision.so to allocate GraphicBuffer with new size
+- 3345629 dolby: Update Dolby Vision stack from a
+- 192971b dolby: Update dolby vision decoders
+- 7518f04 dolby: Add dolby vision decoders
+- 5b593d4 dolby: Fixup dolby c2 for Dolby Vision
+- 2206d71 dolby: Add support for Dolby Vision
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-08-26
 
 ### android_device_xiaomi_garnet
