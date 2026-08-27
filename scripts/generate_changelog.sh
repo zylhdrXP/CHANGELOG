@@ -22,7 +22,7 @@ fi
 HAS_COMMITS=0
 
 {
-  for REPO in android_device_xiaomi_garnet proprietary_vendor_xiaomi_garnet android_device_xiaomi_garnet-miuicamera proprietary_vendor_xiaomi_garnet-miuicamera; do
+  for REPO in android_device_xiaomi_garnet proprietary_vendor_xiaomi_garnet android_device_xiaomi_garnet-miuicamera proprietary_vendor_xiaomi_garnet-miuicamera hardware_dolby; do
     echo "### $REPO"
     echo
     git clone --quiet --no-checkout --single-branch --filter=blob:none \
