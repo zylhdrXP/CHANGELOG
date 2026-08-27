@@ -54,56 +54,6 @@
 ### Kernel Modules
 
 - [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
-## 2026-08-24
-
-### android_device_xiaomi_garnet
-
-- No new commits.
-
-### proprietary_vendor_xiaomi_garnet
-
-- No new commits.
-
-### android_device_xiaomi_garnet-miuicamera
-
-- No new commits.
-
-### proprietary_vendor_xiaomi_garnet-miuicamera
-
-- No new commits.
-
-### Kernel
-
-- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
-
-### Kernel Modules
-
-- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
-## 2026-08-22
-
-### android_device_xiaomi_garnet
-
-- No new commits.
-
-### proprietary_vendor_xiaomi_garnet
-
-- No new commits.
-
-### android_device_xiaomi_garnet-miuicamera
-
-- No new commits.
-
-### proprietary_vendor_xiaomi_garnet-miuicamera
-
-- No new commits.
-
-### Kernel
-
-- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
-
-### Kernel Modules
-
-- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-08-21
 
 ### android_device_xiaomi_garnet
@@ -149,31 +99,6 @@
 ### proprietary_vendor_xiaomi_garnet-miuicamera
 
 - c7f0665 garnet-miuicamera: Leica!
-
-### Kernel
-
-- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
-
-### Kernel Modules
-
-- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
-## 2026-08-19
-
-### android_device_xiaomi_garnet
-
-- No new commits.
-
-### proprietary_vendor_xiaomi_garnet
-
-- No new commits.
-
-### android_device_xiaomi_garnet-miuicamera
-
-- No new commits.
-
-### proprietary_vendor_xiaomi_garnet-miuicamera
-
-- No new commits.
 
 ### Kernel
 
@@ -248,31 +173,6 @@
 - 25b4597 garnet: parts: Default kernel manager to walt governor and 691 MHz min
 - ff76442 garnet: parts: Persist GPU manager settings
 - 83dcf11 garnet: parts: Persist kernel manager settings
-
-### proprietary_vendor_xiaomi_garnet
-
-- No new commits.
-
-### android_device_xiaomi_garnet-miuicamera
-
-- No new commits.
-
-### proprietary_vendor_xiaomi_garnet-miuicamera
-
-- No new commits.
-
-### Kernel
-
-- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
-
-### Kernel Modules
-
-- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
-## 2026-08-15
-
-### android_device_xiaomi_garnet
-
-- No new commits.
 
 ### proprietary_vendor_xiaomi_garnet
 
