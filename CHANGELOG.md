@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-08-31
+
+### android_device_xiaomi_garnet
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- 42ff070 dolby: Import Lunaris Dolby
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-08-27
 
 ### android_device_xiaomi_garnet
