@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-09-09
+
+### android_device_xiaomi_garnet
+
+- 8c132d3 garnet: audio: Bring back audio postprocess streams for Dolby effects
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-09-08
 
 ### android_device_xiaomi_garnet
