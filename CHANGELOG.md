@@ -1,5 +1,46 @@
 # Changelog
 
+## 2026-09-12
+
+### android_device_xiaomi_garnet
+
+- f1ac85e Revert "garnet: audio: Bring back audio postprocess streams for Dolby effects"
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- 249de0b dolby: Update Indonesian Translation
+- e9c2deb dolby: Update translation contributors list
+- ef64e08 dolby: Remove the unused AnimatedEqualizerHeader composable
+- b79abb7 dolby: Extract equalizer section header and unify bottom spacer
+- 55710a1 dolby: Give equalizer nav tab an accessible name when unselected
+- c300e0e dolby: Use the motion scheme for the equalizer view transition
+- 3af68b5 dolby: Fix app-profile monitor after a sticky service restart
+- 72a8048 dolby: Fix double-applied tone on output device switch
+- 7b4edc8 dolby: Drop dead route subscription and unused insets in pager screens
+- aeed714 dolby: Move ViewModel repository calls off the main thread
+- 7c869de dolby: Fix AutoEQ list not populating and crash on bad payload
+- a4d65c4 dolby: Derive equalizer frequency range from band data
+- 9f3a445 dolby: Redesign UI with Material 3 Expressive colors
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-09-09
 
 ### android_device_xiaomi_garnet
