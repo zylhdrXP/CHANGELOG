@@ -1,5 +1,37 @@
 # Changelog
 
+## 2026-09-20
+
+### android_device_xiaomi_garnet
+
+- 949a898 garnet: vibrator: Alias TEXTURE_TICK effect to TICK waveform
+- db08a3e fixup! garnet: Do not balance msm_drm and kgsl_3d0 IRQs
+- 9c2becd garnet: Set primitive vibrator effects
+
+### proprietary_vendor_xiaomi_garnet
+
+- 01a6fd9 garnet: vibrator: Alias TEXTURE_TICK effect to TICK waveform
+- 38d0eb5 garnet: Set primitive vibrator effects
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-09-15
 
 ### android_device_xiaomi_garnet
