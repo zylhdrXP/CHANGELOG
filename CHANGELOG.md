@@ -1,5 +1,40 @@
 # Changelog
 
+## 2026-09-26
+
+### android_device_xiaomi_garnet
+
+- 3fc0941 garnet: parts: Rewrite saturation in jetpack compose
+- 166c35f garnet: parts: Rewrite Per-app Refresh Rate in jetpack compose
+- 4b78822 garnet: parts: Reduce hero banner size
+- 56dea9e garnet: parts: Clean up Garnet Parts strings
+- 1ab8ecd garnet: parts: Externalize Garnet Parts strings
+- d6c7e1d garnet: parts: Fix GPU default max frequency
+- eb08b6a parts: Refactor dashboard to MD3 compliance
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-09-22
 
 ### android_device_xiaomi_garnet
