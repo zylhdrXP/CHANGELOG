@@ -1,5 +1,45 @@
 # Changelog
 
+## 2026-09-29
+
+### android_device_xiaomi_garnet
+
+- 9e3b3e3 garnet: Use legacy libion implementation
+- 3b5025d garnet: sepolicy: Associate XiaomiParts to coredomain
+- 1c7d437 [TMP] garnet: Disable PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS
+- 3ac9ba7 garnet: sepolicy: Define vendor_nfc_prop; allow hal_nfc_default set
+- a87f00f garnet: sepolicy: Allow camera postproc HAL to access platform_app_36
+- 156ed40 garnet: sepolicy: Allow init to write to proc in recovery
+- cddf05f garnet: parts: thermal: Fix unresolved DefaultDialerManager reference
+- 019b4f0 garnet: sepolicy: allow system server to write securityfs
+- b6211dd garnet: Set FCM level to 7
+- 21794e8 garnet: sepolicy: Update 202504 compat ignore list
+- 3d96e26 garnet: power-libperfmgr: Update included soong namespaces
+- 8d32b30 garnet: Use clang-r563880c for now
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-09-28
 
 ### android_device_xiaomi_garnet
