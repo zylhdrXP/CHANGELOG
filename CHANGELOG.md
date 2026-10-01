@@ -1,5 +1,38 @@
 # Changelog
 
+## 2026-10-01
+
+### android_device_xiaomi_garnet
+
+- bcf937a garnet: parts: Detect supported device name
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- 190e8a4 dolby: Link libswdap and libdlbvol with libspatializerparamstorage
+- c8508a0 dolby: Move Spatial props to system_ext
+- 991a5c9 dolby: Update readme
+- 96918b4 dolby: Split and Guard dolby vision decoders
+- 115cca4 dolby: migrate package overrides to Soong
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-09-30
 
 ### android_device_xiaomi_garnet
