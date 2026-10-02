@@ -1,5 +1,36 @@
 # Changelog
 
+## 2026-10-02
+
+### android_device_xiaomi_garnet
+
+- e57d0df garnet: Wire up per fps sf durations
+- 930462e garnet: Set base sf work durations duration props from stock
+- 4035745 Revert "garnet: Update sf duration to 12.3ms"
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-10-01
 
 ### android_device_xiaomi_garnet
