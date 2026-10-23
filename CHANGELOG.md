@@ -1,5 +1,61 @@
 # Changelog
 
+## 2026-10-23
+
+### android_device_xiaomi_garnet
+
+- d33b135 garnet: sepolicy: Allow power HAL to set CPU DMA latency hints
+- 7a8e86d garnet: parts: Drop kprofiles and its related sepolicy
+- d74e8a9 garnet: parts: Fix CPU core labels
+- aeb5a50 garnet: sepolicy: Label bluetooth props
+- a2d4ffb garnet: power: Add camera shot and low power hints
+- a79cb99 garnet: power: Optimize expensive rendering hint
+- 89110bb garnet: power: Tune interaction hint profile
+- 1d3f803 garnet: power: Fix invalid frequencies in powerhint
+- 32c0949 Revert "garnet: Include Dolby Vision"
+- de52663 garnet audio: Add fallback SW A2DP routes
+- 6110214 garnet: Wire up per fps sf durations
+- 8ed7cb3 garnet: Set base sf work durations duration props from stock
+- d997a5b Revert "garnet: Update sf duration to 12.3ms"
+- f279390 garnet: parts: Detect supported device name
+- 8299198 garnet: Use legacy libion implementation
+- 71fc3d3 garnet: sepolicy: Associate XiaomiParts to coredomain
+- a962a24 [TMP] garnet: Disable PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS
+- 32204b9 garnet: sepolicy: Define vendor_nfc_prop; allow hal_nfc_default set
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- 0cb4b7a dolby: sepolicy: Rewrite dolby rules
+- 0589996 dolby: sepolicy: Initial rules for DVS
+- f9e5006 dolby: Add Dolby vision Service support
+- 2adaca4 dolby: Switch to Newer Standalone Dolby Vision Stack taken from A16
+- f79efae dolby: Patch libdolbyvision.so to allocate GraphicBuffer with new size
+- ff5c39a dolby: Update Dolby Vision stack from a
+- fb7889a dolby: Update dolby vision decoders
+- 9d84cdd dolby: Add dolby vision decoders
+- 1e093b6 dolby: Fixup dolby c2 for Dolby Vision
+- c1b21fc dolby: Add support for Dolby Vision
+- 1950adc dolby: Update Indonesian translation
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-10-20
 
 ### android_device_xiaomi_garnet
