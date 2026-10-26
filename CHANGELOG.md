@@ -1,5 +1,198 @@
 # Changelog
 
+## 2026-10-26
+
+### android_device_xiaomi_garnet
+
+- 947e7b6 garnet: parts: thermal: Add game packages list for gaming profile
+- 5942578 garnet: Set the io-scheduler to adios
+- 15a4f27 garnet: init: Copy camera video filter LUTs to /data/vendor/camera
+- 746d255 garnet: Pin missing leica video filters
+- 9a8a955 garnet: Pin Adreno GPU drivers V837.0.9
+- 1d6b53d garnet: Include Dolby audio codecs
+- a8495cc garnet: overlay: Disable app launch blur
+- bba1671 garnet: fastbootd is now enabled by default
+- 45b7976 garnet: parts: thermal: Fix unresolved DefaultDialerManager reference
+- f25497c garnet: parts: Drop kprofiles and its related sepolicy
+- b7be9fa garnet: parts: Fix CPU core labels
+- 1e6cb9b garnet: sepolicy: Label bluetooth props
+- 273bcd6 garnet: power: Add camera shot and low power hints
+- f944379 garnet: power: Optimize expensive rendering hint
+- c285b3c garnet: power: Tune interaction hint profile
+- 040b791 garnet: power: Fix invalid frequencies in powerhint
+- c62f2c9 garnet audio: Add fallback SW A2DP routes
+- 585737b garnet: parts: Detect supported device name
+- 82d7c60 garnet: sepolicy: Allow camera postproc HAL to access platform_app_36
+- 734d3d7 garnet: parts: Rewrite saturation in jetpack compose
+- ab7fb69 garnet: parts: Rewrite Per-app Refresh Rate in jetpack compose
+- b7862c0 garnet: parts: Reduce hero banner size
+- 7d16f5f garnet: parts: Clean up Garnet Parts strings
+- 3b6e380 garnet: parts: Externalize Garnet Parts strings
+- 047b325 garnet: parts: Fix GPU default max frequency
+- 699a39d parts: Refactor dashboard to MD3 compliance
+- 77b5e10 garnet: parts: Drop thermal profiles tile service
+- 3bb6954 garnet: camera: Set torch default strength level to max
+- 3f27d02 garnet: parts: Update thermal profiles
+- 5338896 garnet: Implement torch light control
+- 24ae3aa garnet: Disable QCOM system daemon
+- 7c83551 garnet: rootdir: Restrict apps access to /proc/net/unix
+- 3e06bc7 garnet: sepolicy: Neverallow app open access to /dev/ashmem
+- f93aafb garnet: rootdir: Set correct permission for ntsync
+- e9ae8e2 garnet: parts: Preserve apply on boot across kernel manager reset
+- 21d85f1 garnet: parts: Fix kernel manager reset showing wrong min freq
+- 018d25e garnet: power: Add uclamp and L3 boost hints
+- ad8faf7 garnet: power: Tune interaction and launch hints
+- a0ba667 garnet: parts: Default force no nap and bus split to enabled
+- 8fc470a garnet: parts: Add apply on boot for kernel and gpu manager
+- 921cd41 garnet: parts: Clean up kernel and gpu manager utils
+- bc0ecb3 garnet: parts: Default kernel manager to walt governor and 691 MHz min
+- 24f3b54 garnet: parts: Persist GPU manager settings
+- b6608ad garnet: parts: Persist kernel manager settings
+- ac4d251 garnet: Load ntsync module at boot
+- 422d7b7 garnet: overlay: Set default pin amount for home app
+- 42d6a33 garnet: overlay: Add webview pinning
+- 735608d garnet: init: Give thermal profiles permissions
+- fd1533d garnet: props: Disable EGL image tracking
+- 246f822 garnet: props: Set `debug.sf.disable_client_composition_cache` to 0
+- 7cb4aa3 garnet: props: set debug.sf.enable_advanced_sf_phase_offset=1
+- 8e71f08 garnet: props: set debug.sf.auto_latch_unsignaled to 1
+- 071701a garnet: props: Further reduce uclamp values
+- d0be888 garnet: props: Increase audio offload buffer size from 32KB to 64KB
+- e7ee326 garnet: overlay: Add restart systemui in advanced boot menu
+- 8b136d2 garnet: props: Disable Skia tracing by default
+- 93ccfd1 garnet: overlay: Add overlay to improve signal reception
+- d1f1abc garnet: surfaceflinger: Reduce max acquired frame buffers to 2
+- 6c9cb1b garnet: parts: Fix off-center logo in Garnet Parts icon
+- 8abffdf garnet: props: Set ro.netflix.bsp_rev from stock
+- 8286c6c garnet: parts: Improve bypass charging icon & animation
+- 8470b4e garnet: props: Move read only HWUI properties to system.prop
+- ac3883b garnet: reduce uclamp.min value to 125
+- ce1bed5 garnet: Reduce surfaceflinger min uclamp value
+- 549371e garnet: Set SurfaceFlinger uclamp.min to 20%
+- ec712d8 garnet: Pin thermal configuration
+- e280395 garnet: Move c2_manifest_vendor.xml to device tree
+- acd5d39 garnet: audio: Sync with Dolby Spatial Audio
+- f16903a garnet: Include Dolby Atmos
+- a7d7b48 garnet: Explicitly disable Enable GL comp backpressure
+- d9d7e52 garnet: parts: Rewrite Bypass Charge in Jetpack Compose
+- 43d76e5 garnet: parts: Rewrite Clear Speaker in Jetpack Compose
+- acb7e6b garnet: parts: Rewrite GPU Manager in Jetpack Compose
+- 175beab garnet: parts: Rewrite Kernel Manager Manager in Jetpack Compose
+- 7648f7f garnet: parts: implement collapsing header on scroll for Garnet Parts
+- 5a04e74 garnet: parts: Added haptic feedback when swiping Carousel
+- 31e857b garnet: parts: Implement search box in Thermal Screen
+- 5b96879 garnet: parts: Update GarnetParts icon
+- 6abc5c2 garnet: parts: Redesign dashboard with Jetpack Compose
+- 22641aa garnet: parts: Move KProfiles to Garnet Parts
+- 6e2d1f5 garnet: Build KProfiles and label it properly
+- 66077e6 garnet: KProfiles: Move KProfiles on dt source
+- ddb1ef1 garnet: parts: Fix kernel manager performance cluster policy path
+- 0a0a7b6 garnet: parts: Move parts to one section
+- a3e2c0a garnet: parts: add minimal GPU Manager
+- 8697e4c garnet: parts: add minimal CPU Manager
+- feeb23c garnet: parts: add core control
+- b3928ea garnet: parts: add charging bypass toggle
+- 102a178 garnet: parts: Update thermal settings icon
+- 23aa3c2 garnet: parts: Remove unused Doze implementation and service
+- 87b6d4f garnet: parts: thermals: Re-write in jetpack compose
+- 8bd1883 garnet: Parts: thermal-profiles rewrite in kotlin
+- 9877037 garnet: parts: added ru localization
+- ca52bf7 garnet: parts: Revamp per-app config UI with search and new layout
+- aa56e81 garnet: Switch to SwitchPreferenceCompat
+- 89951ff garnet: parts: Apply Expressive theme
+- 9649315 garnet: devicesettings: Convert for M3E support
+- 28aadab garnet: ThermalSettingsFragment: Defer applying divider
+- 42cfb2b garnet: doze: Get rid of HelpDialogFragment class
+- d7e8dc0 garnet: Refactor: Migrate SaturationUtils to Kotlin
+- 4a90036 garnet: Add support for `60Hz in Landscape` in Per-App-RR
+- 3547af5 garnet: parts: Add {navigation,video} thermal profiles
+- e3f119d garnet: parts: Introduce Display Saturation Service and TileUtils
+- 8cea266 garnet: parts: Add permissions and whitelist for Xiaomi parts
+- 2bbdab6 garnet: parts: Refactor BootCompletedReceiver
+- 3183763 garnet: parts: Start parts services as early as possible on bootup
+- ada6afa garnet: parts: Update overrideHdrTypes API for U
+- ce1beac garnet: parts: Override HDR types for Dolby Vision
+- ab620be garnet: parts: Partially import parts from sm8350-common
+- 44b6809 garnet: Overlay: Define config_screenRecorderAVCProfileLevel
+- af8c4fe garnet: Enable Qualcomm TrueWireless™ Stereo
+- 30692ab garnet: Enable debug.performance.tuning
+- 285d4f6 garnet: props: Add missing layer buffer slots cache clear property
+- 6bba217 garnet: Enable frame pacing for smoother visual performance
+- 43a0b8e garnet: Use hwui and add some hwui props for improve perf
+- fe99d2f garnet: For smoother scrolling and better responsiveness
+- 4a3bbe6 garnet: Disable logging sensors-hal events
+- 8c0052e garnet: props: Enable support for kernel idle timer
+- 2367e58 garnet: Add GameBar and configure related overlay
+- 2310e86 garnet: sepolicy: Grant system_app access to hal_mlipay_hwservice
+- 206d6c2 garnet: power: Set GPUMinFreq 650MHz & GPUMaxFreq 940MHz on EXPENSIVE_RENDERING
+- 92c87e7 garnet: powerhint: Refine performance hints for various scenarios
+- 090b617 garnet: Add com.android.bluetooth context to seapp_contexts
+- 3e33574 garnet: sepolicy: Label missing sysfs_wakeup nodes
+- abe23d3 garnet: overlay: added AOD brightness sensor configuration
+- 8a1fecb garnet: sepolicy: allow rild read default_prop
+- 0174109 garnet: sepolicy: Allow system_server to write to audioserver_tmpfs
+- 918af14 garnet: sepolicy: Add sys_nice capability to hal_fingerprint_default
+- 7d9bd06 garnet: sepolicy: Allow system_suspend to read sysfs_wakeup files
+- 2be6fb3 garnet: audio: Drop ultrasound-handset profile to fix route transitions
+- ede16df garnet: overlay: Show min/max refresh rate in settings
+- 5ff60a3 garnet: overlay: Disable config show smooth display
+- 22d6b81 garnet: overlay: Clean up color profiles and enable translations
+- 4805ac8 garnet: Move miuicam includes to the end
+- eb53a24 garnet: Include MiuiCamera if exists
+- d76d40e garnet: c2_store_abi_check: match the arm64 ComponentStore size
+- 3c01cff garnet: Fix the codec2 store allocation in the QTI services
+- 5a3b56c garnet: Enable face unlock
+- 22522ed garnet: sepolicy: Label face unlock HAL
+- a66da09 fixup! garnet: Do not balance msm_drm and kgsl_3d0 IRQs
+- 7eb30f8 garnet: vibrator: Alias TEXTURE_TICK effect to TICK waveform
+- 3e627aa garnet: Set primitive vibrator effects
+- 9ff98af garnet: Update from OS3.0.302.0.WNRMIXM
+- d3a6767 garnet: sepolicy: Allow power HAL to set CPU DMA latency hints
+- c73aee1 garnet: sepolicy: Define vendor_nfc_prop; allow hal_nfc_default set
+- bf6da0e garnet: sepolicy: Update 202504 compat ignore list
+- e5933bd garnet: Disable PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS
+- 4ac9242 garnet: sepolicy: allow system server to write securityfs
+- 66323ac garnet: sepolicy: Allow init to write to proc in recovery
+- 30e6109 garnet: Use legacy libion implementation
+- 4f8ec06 garnet: sepolicy: Associate XiaomiParts to coredomain
+- f8ab466 garnet: Use Clang r563880c for kernel build
+- b55fa04 garnet: power-libperfmgr: Update included soong namespaces
+- c0613c3 garnet: Set FCM level to 7
+
+### proprietary_vendor_xiaomi_garnet
+
+- 448ec10 garnet: Add missing leica video filters
+- cdf2310 garnet: Set the io-scheduler to adios
+- 83dd84a garnet: Import Adreno GPU drivers V837.0.9
+- 2cc7cea garnet: Include Dolby audio codecs
+- 82dcf1d garnet: Refine thermal configuration
+- a936ac3 garnet: Move c2_manifest_vendor.xml to device tree
+- 11bebef garnet: Fix the codec2 store allocation in the QTI services
+- 7573bf6 garnet: Add face unlock blobs
+- 289007a garnet: Do not balance msm_drm and kgsl_3d0 IRQs
+- 3447435 garnet: vibrator: Alias TEXTURE_TICK effect to TICK waveform
+- f269669 garnet: Set primitive vibrator effects
+- 7fe540e garnet: Update from OS3.0.302.0.WNRMIXM
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-10-24
 
 ### android_device_xiaomi_garnet
