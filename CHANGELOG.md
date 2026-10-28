@@ -1,5 +1,43 @@
 # Changelog
 
+## 2026-10-28
+
+### android_device_xiaomi_garnet
+
+- 8e7bf19 garnet: Update from OS3.0.304.0.WNRMIXM
+- 0dcec62 garnet: parts: thermal: Add game packages list for gaming profile
+- bc5cf91 garnet: Set the io-scheduler to adios
+- c94ce02 garnet: init: Copy camera video filter LUTs to /data/vendor/camera
+
+### proprietary_vendor_xiaomi_garnet
+
+- 2e11862 garnet: Update from OS3.0.304.0.WNRMIXM
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- c44858c Revert "dolby: sepolicy: Add platform_app_36 rules for OEM Dolby App"
+- c85dc3b dolby: Always build dolby vision and never build oem app
+- f607950 dolby: migrate package overrides to Soong
+- f9edcf9 dolby: sepolicy: allow hal_dms_default to access vendor_audio_prop
+- b923ec9 dolby: Allow hal_dms_default to connect to property socket
+- 46ecb56 dolby: Update Indonesian translation
+- 523217a Merge branch '16' of https://github.com/Pong-Development/hardware_dolby into HEAD
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-10-26
 
 ### android_device_xiaomi_garnet
