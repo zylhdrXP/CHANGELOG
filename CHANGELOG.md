@@ -1,5 +1,39 @@
 # Changelog
 
+## 2026-11-01
+
+### android_device_xiaomi_garnet
+
+- bf37597 garnet: dolby: switch to HW blobs
+- 4447c6c garnet: power: Reconfigure rendering and sustained performance baselines
+- a13761a garnet: power: Strengthen interaction boost and shorten launch window
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- 41fdbd9 garnet-miuicamera: Update from OS3.0.304.0.WNRMIXM
+
+### hardware_dolby
+
+- 2fe818a dolby: Fix floating navbar width
+- fe46bf8 dolby: Add optional hardware DAP support
+- 367105f configs: Remove legacy OMX aliases from Dolby Codec2 decoders
+- 5e829fb dolby: Switch to compact navbar design
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-10-31
 
 ### android_device_xiaomi_garnet
