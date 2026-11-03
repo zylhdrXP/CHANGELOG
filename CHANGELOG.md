@@ -1,5 +1,44 @@
 # Changelog
 
+## 2026-11-03
+
+### android_device_xiaomi_garnet
+
+- 48394c6 garnet: sepolicy: Grant devicesettings_app permissions for XiaomiParts
+- 93d5bbd garnet: parts: Clean up Java compiler and ErrorProne warnings
+- acbd42a garnet: parts: Make it more Expressive
+- a0645e9 garnet: sepolicy: Allow batterysecret to swap the typec data role
+- 9231f6b garnet: sepolicy: Allow Parts to write the charge nodes
+- d573320 garnet: parts: Introduce Charge Boost
+- 2fadb49 garnet: sepolicy: Move xiaomi camera postproc attrs to separate file
+- 4327212 garnet: sepolicy: Add sepolicy to compat ignore list
+- 591b8d1 garnet: sepolicy: Rework sepolicy and drop neverallows
+- cc83787 garnet: sepolicy: Label more property
+- 93c6755 garnet: sepolicy: Import initial sepolicy for Xiaomi parts
+
+### proprietary_vendor_xiaomi_garnet
+
+- No new commits.
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-11-01
 
 ### android_device_xiaomi_garnet
