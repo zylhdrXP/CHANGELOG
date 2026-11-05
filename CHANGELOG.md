@@ -1,5 +1,36 @@
 # Changelog
 
+## 2026-11-05
+
+### android_device_xiaomi_garnet
+
+- 8eb97af garnet: Import media_codecs_c2_audio.xml from stock
+- d6d4871 Revert "garnet: Include Dolby audio codecs"
+
+### proprietary_vendor_xiaomi_garnet
+
+- 3e96398 garnet: Import media_codecs_c2_audio.xml from stock
+- 32d9980 Revert "garnet: Include Dolby audio codecs"
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-11-03
 
 ### android_device_xiaomi_garnet
