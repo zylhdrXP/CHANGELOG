@@ -1,5 +1,66 @@
 # Changelog
 
+## 2026-11-08
+
+### android_device_xiaomi_garnet
+
+- 0862ae1 garnet: Drop BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT
+- bc8a819 garnet: fstab: Drop AVB keys
+- b1591e2 garnet: Link libswspatializer and libswspatializer_ext against v33 libstagefright_foundation
+- 1b6d02a garnet: Fix Dolby Codec2 crashes
+- 042c662 garnet: Move keyguard text below udfps icon
+- 296e4f1 garnet: sepolicy: Add HIDL service declaration for dvs
+- b5d2f60 garnet: sepolicy: Rewrite dolby vision rules
+- 3c2b468 garnet: Add Dolby vision Service support
+- aa7d0ce garnet: Add support for Dolby Vision
+- 922e7d6 garnet: Fix Dolby AC-4 decoder initialization
+- bff8886 garnet: Link libdlbvol with libspatializerparamstorage
+- 166c075 garnet: Build LunarisDolby
+- 05f38dc garnet: Allow hal_dms_default to connect to property socket
+- 0de2b1c garnet: sepolicy: allow hal_dms_default to read vendor_audio_prop
+- 2286d17 garnet: sepolicy: Add rules for Dolby
+- d60c041 garnet: Create missing dolby related directory
+- 41b4005 garnet: Use foreground uclamp for Codec2 service
+- 3d27568 garnet: Remove legacy OMX aliases from Dolby Codec2 decoders
+- fea7e43 garnet: Link codec2 libraries against v33 libstagefright_foundation
+- 59b2180 garnet: Link more libs against v33 libstagefright_foundation
+- beda19c garnet: Link dolby blobs against v33 libstagefright_foundation
+- e9f35b5 garnet: Import Dolby stack from ishtar OS3.0.304.0.WMAMIXM
+
+### proprietary_vendor_xiaomi_garnet
+
+- d660d80 garnet: Link libswspatializer and libswspatializer_ext against v33 libstagefright_foundation
+- 9080710 garnet: Fix Dolby Codec2 crashes
+- 0fe1ad5 garnet: Add Dolby vision Service support
+- 68ea1af garnet: Add support for Dolby Vision
+- 3bfc1c1 garnet: Fix Dolby AC-4 decoder initialization
+- d5be30f garnet: Link libdlbvol with libspatializerparamstorage
+- a44291a garnet: Use foreground uclamp for Codec2 service
+- 797099e garnet: Remove legacy OMX aliases from Dolby Codec2 decoders
+- c61d1ca garnet: Link codec2 libraries against v33 libstagefright_foundation
+- f923717 garnet: Link more libs against v33 libstagefright_foundation
+- 7439bfb garnet: Link dolby blobs against v33 libstagefright_foundation
+- 00b6c4a garnet: Import Dolby stack from ishtar OS3.0.304.0.WMAMIXM
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-11-05
 
 ### android_device_xiaomi_garnet
