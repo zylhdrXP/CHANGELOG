@@ -1,5 +1,36 @@
 # Changelog
 
+## 2026-11-14
+
+### android_device_xiaomi_garnet
+
+- e54e0e5 garnet: Pin ViPER4Android lib
+- acf47f5 garnet: Declare V4A library and effect
+- f1f071d garnet: sepolicy: Label V4A control service for app API access
+
+### proprietary_vendor_xiaomi_garnet
+
+- 5604518 garnet: Import ViPER4Android driver lib
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-11-13
 
 ### android_device_xiaomi_garnet
