@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-11-16
+
+### android_device_xiaomi_garnet
+
+- a88718c garnet: Update libv4a v2.1.2
+- 2ad775a garnet: Move away XiaomiParts from device tree
+
+### proprietary_vendor_xiaomi_garnet
+
+- 94124f1 garnet: Update libv4a v2.1.2
+
+### android_device_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### proprietary_vendor_xiaomi_garnet-miuicamera
+
+- No new commits.
+
+### hardware_dolby
+
+- No new commits.
+
+### Kernel
+
+- [android_kernel_xiaomi_sm7435](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435/commits/lineage-23.2/)
+
+### Kernel Modules
+
+- [android_kernel_xiaomi_sm7435-modules](https://github.com/Fleur-Project/android_kernel_xiaomi_sm7435-modules/commits/lineage-23.2/)
 ## 2026-11-15
 
 ### android_device_xiaomi_garnet
